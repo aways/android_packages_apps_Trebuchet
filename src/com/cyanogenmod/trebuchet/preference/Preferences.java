@@ -38,7 +38,7 @@ import com.cyanogenmod.trebuchet.R;
 
 import java.util.List;
 
-public class Preferences extends PreferenceActivity
+public class Preferences extends PreferenceDrawerActivity
         implements SharedPreferences.OnSharedPreferenceChangeListener {
 
     private static final String TAG = "Trebuchet.Preferences";
